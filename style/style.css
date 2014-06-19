@@ -1,0 +1,526 @@
+@charset "utf-8";
+/* CSS Document */
+/*written by xpp*/
+
+/***************clear****************/
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+	vertical-align:bottom;
+}
+
+.clear {
+	clear: both;
+}
+/***************all****************/
+
+body {
+	
+	
+	width: 100%;
+	height: 100%;
+}
+html{
+	overflow:hidden;
+}
+.viewImg{
+	cursor:pointer;
+}
+.h120{
+	height:120px;
+}
+.h100{
+	height:100px;
+}
+.h30{
+	height:30px;
+}
+#wrapper {
+	z-index: 10;
+	position: relative;
+	top: 0;
+}
+#mainContent{
+
+}
+#logoAnim{
+	background:url(../images/l01.1.gif);
+	position:relative;
+	top:81px;
+	left:80px;
+	width:116px;
+	height:115px;
+}
+	
+.bgBox{
+	background: url(../images/bg.png) repeat-x #97bc38;
+}
+.topPage1{
+	height:600px;
+	background: #cdcec8;
+}
+.topPage2{
+	height:600px;
+	background: #cdcec8;
+}
+.shader1{
+	width:720px;
+	height:65px;
+	background:url(../images/shader1.png) no-repeat
+}
+.bt {
+	cursor: pointer;
+}
+#enterBt {
+	display: block;
+	width: 280px;
+	height: 302px;
+	cursor: pointer;
+	margin-left:-100px;
+	margin-top:-152px;
+	background:url(../images/logo02.jpg) no-repeat;
+}
+#enterBox {
+	width: 280px;
+	height: 302px;
+	position: relative;
+	cursor: pointer;
+	top: 50%;
+	left: 50%;
+
+}
+#enterBt:hover{
+	background:url(../images/logo01.jpg);
+}
+#mainNavBox {
+	width: 700px;
+	position: relative;
+	top: 50%;
+	left:50%;
+	margin:0 0 0 -350px;
+}
+#leftNav {
+	z-index: 11;
+	width: 54px;
+	height: 270px;
+	position: absolute;
+	left: 50%;
+	margin-left: -485px;
+	display: none;
+}
+.leftNavBt {
+	display: block;
+	width: 139px;
+	height: 54px;
+	cursor: pointer;
+}
+.mainNavBt {
+	display: block;
+	width: 140px;
+	height: 188px;
+	cursor: pointer;
+	float:left;
+	margin-top:-170px;
+}
+#overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	background:#000;
+	width:100%;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	z-index:1000;
+	display:none;
+	cursor:pointer;
+}
+#imgWrap{
+	display:none;
+	position:fixed;
+	top:45%;
+	left:50%;
+	z-index:1001;
+	background:#FFF;
+	padding-top:38px;
+	border:#FFF 3px solid;
+}
+#videoWrap{
+	display:none;
+	position:fixed;
+	top:100px;
+	left:50%;
+	z-index:1001;
+	background:#FFF;
+	padding-top:38px;
+	border:#FFF 3px solid;
+	width:1280px;
+	height:720px;
+	margin:0 0 0 -640px;
+}
+#closeBt{
+	position:absolute;
+	right:2px;
+	top:12px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../images/closeBt.jpg) no-repeat;
+	cursor:pointer;
+}
+#mainNavBox .newsBt {
+	background: url(../images/mainNav01.jpg)
+}
+#mainNavBox .aboutBt {
+	background: url(../images/mainNav02.jpg)
+}
+#mainNavBox .serviceBt {
+	background: url(../images/mainNav03.jpg)
+}
+#mainNavBox .jobsBt {
+	background: url(../images/mainNav04.jpg)
+}
+#mainNavBox .contactBt {
+	background: url(../images/mainNav05.jpg)
+}
+#mainNavBox .newsBt:hover {
+	background: url(../images/mainNav01_on.jpg)
+}
+#mainNavBox .aboutBt:hover {
+	background: url(../images/mainNav02_on.jpg)
+}
+#mainNavBox .serviceBt:hover {
+	background: url(../images/mainNav03_on.jpg)
+}
+#mainNavBox .jobsBt:hover {
+	background: url(../images/mainNav04_on.jpg)
+}
+#mainNavBox .contactBt:hover {
+	background: url(../images/mainNav05_on.jpg)
+}
+
+#leftNav .newsBt {
+	background: url(../images/leftNav01.png)
+}
+#leftNav .aboutBt {
+	background: url(../images/leftNav02.png)
+}
+#leftNav .serviceBt {
+	background: url(../images/leftNav03.png)
+}
+#leftNav .jobsBt {
+	background: url(../images/leftNav04.png)
+}
+#leftNav .contactBt {
+	background: url(../images/leftNav05.png)
+}
+#leftNav .newsBt:hover {
+	background: url(../images/leftNav01_on.png)
+}
+#leftNav .aboutBt:hover {
+	background: url(../images/leftNav02_on.png)
+}
+#leftNav .serviceBt:hover {
+	background: url(../images/leftNav03_on.png)
+}
+#leftNav .jobsBt:hover {
+	background: url(../images/leftNav04_on.png)
+}
+#leftNav .contactBt:hover {
+	background: url(../images/leftNav05_on.png)
+}
+#topBar {
+	position:fixed;
+	top:0;
+	width: 100%;
+	height: 44px;
+	z-index: 10;
+	background: url(../images/topBg.jpg) repeat-x;
+}
+.topBgBox{
+	position:relative;
+	z-index:100;
+}
+#mainContent{
+	position:relative;
+	z-index:1;
+}
+#bg {
+	
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	
+}
+.backBt {
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: 399px;
+	cursor: pointer;
+}
+.newsPage,#jobPage,#aboutPage,#servicePage,#contactPage,#nullPage {
+	width:720px;
+	margin-left:-285px;
+	position:relative;
+	left:50%;
+}
+
+/*****************news******************/
+.newsPage_2{
+	height:610px;
+}
+.newsPage_3{
+	height:610px;
+}
+.newsPage_4{
+	height:610px;
+}
+
+.newsPage_5{
+	height:600px;
+}
+.news2btBox{
+	width:720px;
+	height:330px;
+	position:relative;
+	left:0;
+	top:-265px;
+	z-index:0;
+	overflow:hidden;
+}
+.news3btBox{
+	width:720px;
+	height:330px;
+	position:relative;
+	left:0;
+	top:-271px;
+	z-index:0;
+	overflow:hidden;
+}
+.news4btBox{
+	width:720px;
+	height:330px;
+	position:relative;
+	left:0;
+	top:-267px;
+	z-index:0;
+	overflow:hidden;
+}
+.newsPage .btBody{
+	width:720px;
+	position:relative;
+	
+}
+.newsPage .btMask{
+	width:179px ;
+	height:179Px;
+	background:url(../images/bgBlack80.png);
+	position:relative;
+	top:-179px;
+	left:0;
+}
+.newsPageBt{
+	width:179px;
+	height:179px;
+	float:left;
+}
+.newsPageBt1,.newsPageBt2,.newsPageBt3{
+	border-right:#FFF 1px solid;
+}
+.newsPageBt3,.newsPageBt4{
+	background:#FFF;
+}
+.newsPage .imgBox{
+	width:720px;
+	height:310px;
+	position:relative;
+	z-index:11;
+}
+.newsPage .newsBar{
+	width:720px;
+	height:84px;
+	background:url(../images/newsBar.jpg);
+	position:relative;
+	z-index:10;
+}
+.newsShowBt{
+	position:relative;
+	top:35px;
+	left:660px;
+}
+#newsV1Bt{
+	position:relative;
+	top:35px;
+	left:660px;
+}
+.newsV1{
+	display:block;
+	width:720px;
+	height:370px;
+	background:url(../images/newsV.jpg) no-repeat
+}
+.newsV1:hover{
+	background:url(../images/newsV_h.jpg) no-repeat
+}
+.newsV1Bar{
+	width:720px;
+	height:86px;
+	background:url(../images/newsV1Bar.jpg)	
+}
+.newsVT{
+	width:720px;
+	height:163px;
+	overflow:hidden;
+}
+#newsV1T{
+	position:relative;
+	top:-98px;
+}
+/***************aboutPage****************/
+
+
+#aboutPage .imgBody {
+	width:720px;
+	overflow:hidden;
+	position:relative;
+}
+#aboutPage .imgBox {
+	width: 3600px;
+	position: relative;
+}
+#aboutPage .leftBt {
+	position: relative;
+	width: 75px;
+	height: 75px;
+	left: -35px;
+	top: -495px;
+	float: left;
+}
+#aboutPage .rightBt {
+	position: relative;
+	width: 75px;
+	height: 75px;
+	right: -35px;
+	top: -495px;
+	float: right;
+}
+
+/**************servicePage*****************/
+
+#serviceBody {
+	position:relative;
+	width:720px;
+	height:530px;
+}
+#servicePage .imgBody {
+	width: 720px;
+	height: 426px;
+	overflow: hidden;
+	
+	position:relative
+}
+#servicePage .btBox {
+	position:relative;
+	width: 720px;
+	height: 310px;
+}
+
+#servicePage .imgBody .imgBox {
+	width: 720px;
+	height: 361px;
+	position: relative;
+	top: -361px;
+	left: 0;
+}
+.sBt {
+	display: block;
+	float: left;
+	height: 310px;
+}
+.sBt1 {
+	width: 241px;
+	background: url(../images/services-web.gif) no-repeat;
+}
+.sBt2 {
+	width: 238px;
+	background: url(../images/services-ui-ue.gif) no-repeat;
+}
+.sBt3 {
+	width: 241px;
+	background: url(../images/services-video.gif) no-repeat;
+}
+.sBtOn1 {
+	width: 241px;
+	background: url(../images/services-web-on.gif) no-repeat;
+}
+.sBtOn2 {
+	width: 238px;
+	background: url(../images/services-ui-ue-on.gif) no-repeat;
+}
+.sBtOn3 {
+	width: 241px;
+	background: url(../images/services-video-on.gif) no-repeat;
+}
+
+/**************jobPage*****************/
+
+#jobBody {
+	position:relative;
+	width:720px;
+	height:530px;
+}
+#jobPage .imgBody {
+	width: 720px;
+	height: 426px;
+	overflow: hidden;
+	position: relative;
+}
+#jobPage .imgBody .imgBox {
+	width: 720px;
+	height: 361px;
+	position: relative;
+	top: -361px;
+	left: 0;
+}
+.jBt {
+	display: block;
+	float: left;
+	height: 310px;
+}
+.jBt1 {
+	width: 181px;
+	background: url(../images/jobs-ui-ue.gif) no-repeat;
+}
+.jBt2 {
+	width: 178px;
+	background: url(../images/jobs-animator.gif) no-repeat;
+}
+.jBt3 {
+	width: 180px;
+	background: url(../images/jobs-planning.gif) no-repeat;
+}
+.jBt4 {
+	width: 181px;
+	background: url(../images/jobs-engineer.gif) no-repeat;
+}
+.jBtOn1 {
+	width: 181px;
+	background: url(../images/jobs-ui-ue-on.gif) no-repeat;
+}
+.jBtOn2 {
+	width: 178px;
+	background: url(../images/jobs-animator-on.gif) no-repeat;
+}
+.jBtOn3 {
+	width: 180px;
+	background: url(../images/jobs-planning-on.gif) no-repeat;
+}
+.jBtOn4 {
+	width: 181px;
+	background: url(../images/jobs-engineer-on.gif) no-repeat;
+}
+
+/*************contactPage****************/
